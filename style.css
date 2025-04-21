@@ -1,0 +1,126 @@
+body {
+    background-color: #f5f7fa;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* Hero Section */
+  .hero {
+    min-height: 90vh; 
+    background: linear-gradient(145deg, #e0e5ec, #ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+  
+  .hero h1, .hero p {
+    animation: fadeIn 2s ease forwards;
+  }
+  
+  /* Content Sections */
+  .content-section {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    max-width: 900px;
+  }
+  
+  .section-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  /* Fade-in animation */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 4rem;
+    font-size: 0.875rem;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: #ffffff !important;
+  }
+  
+  /* Neumorphism effect */
+  .neumorphism {
+    background: #e0e5ec;
+    box-shadow: 10px 10px 20px #c1c1c1,
+                -10px -10px 20px #ffffff;
+    border-radius: 12px;
+    padding: 2rem;
+  }
+
+/* Profile Picture Styling */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 8px 8px 16px #c1c1c1, -8px -8px 16px #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 1rem; /* SMALL top margin to separate from paragraph */
+    margin-bottom: 3rem; /* Sufficient bottom margin before footer */
+}
+
+/* Profile Picture Hover Effect */
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 12px 12px 24px #c1c1c1, -12px -12px 24px #ffffff;
+}
+
+/* Responsive adjustments for tablet and mobile screens */
+@media (max-width: 768px) {
+  
+    /* Hero Section - reduce top padding */
+    .hero {
+      padding-top: 100px;
+    }
+  
+    /* Profile Picture - shrink size and margins */
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      margin-top: 0.5rem;
+      margin-bottom: 2rem;
+    }
+  
+  }
+
+  /* Responsive */
+  @media (max-width: 576px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Navbar link hover effect */
+.nav-link {
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #0077ff;
+    border-bottom: 2px solid #0077ff;
+  }
+  
