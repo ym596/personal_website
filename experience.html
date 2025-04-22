@@ -104,6 +104,30 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!--  Custom switching script -->
+<script>
+    const companyItems = document.querySelectorAll('.company-item');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+    
+    companyItems.forEach(item => {
+      item.addEventListener('click', () => {
+        // Remove active class from all
+        companyItems.forEach(i => i.classList.remove('active'));
+        // Add active class to clicked one
+        item.classList.add('active');
+    
+        // Hide all tab panes
+        tabPanes.forEach(pane => pane.classList.remove('show', 'active'));
+        // Show target tab
+        const targetId = item.getAttribute('data-target');
+        document.getElementById(targetId).classList.add('show', 'active');
+      });
+    });
+    </script>
+    
+
 <script src="script.js"></script>
+
 </body>
 </html>
