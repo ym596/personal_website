@@ -1,3 +1,5 @@
+  /*-- adapted this code from ChatGPT -->*/
+
 body {
     background-color: #f5f7fa;
     color: #333;
@@ -6,6 +8,8 @@ body {
   }
   
   /* Hero Section */
+
+
   .hero {
     min-height: 90vh; 
     background: linear-gradient(145deg, #e0e5ec, #ffffff);
