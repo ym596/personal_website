@@ -90,7 +90,7 @@ body {
 
 /* Profile Picture Hover Effect */
 .profile-pic:hover {
-    transform: scale(1.05);
+    transform: scale(1.5);
     box-shadow: 12px 12px 24px #c1c1c1, -12px -12px 24px #ffffff;
 }
 
