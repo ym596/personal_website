@@ -80,8 +80,8 @@ body {
     object-fit: cover;
     box-shadow: 8px 8px 16px #c1c1c1, -8px -8px 16px #ffffff;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin-top: 1rem; /* SMALL top margin to separate from paragraph */
-    margin-bottom: 3rem; /* Sufficient bottom margin before footer */
+    margin-top: 1rem; 
+    margin-bottom: 3rem; 
 }
 
 /* Profile Picture Hover Effect */
@@ -120,7 +120,7 @@ body {
 
 
 .navbar {
-    background: #e6f0ff !important; /* Light pastel blue background */
+    background: #e6f0ff !important; 
     box-shadow: 8px 8px 16px #c1c1c1, -8px -8px 16px #ffffff;
     border-radius: 20px;
     margin: 20px auto;
@@ -138,7 +138,7 @@ body {
   
   /* Hover Effect */
   .navbar-nav .nav-link:hover {
-    background: rgba(0, 119, 255, 0.1); /* subtle blue background on hover */
+    background: rgba(0, 119, 255, 0.1); 
     color: #0077ff;
     box-shadow: 4px 4px 8px #c1c1c1, -4px -4px 8px #ffffff;
   }
@@ -211,13 +211,13 @@ body {
   }
 
   .neumorphic-btn {
-    background: #e6f0ff; /* Light pastel blue */
+    background: #e6f0ff; 
     border: none;
     border-radius: 12px;
     padding: 12px 24px;
     font-size: 1.2rem;
     font-weight: 500;
-    color: #0077ff; /* Blue text */
+    color: #0077ff; 
     box-shadow: 8px 8px 16px #c1c1c1, -8px -8px 16px #ffffff;
     transition: all 0.3s ease;
     display: inline-block;
@@ -242,7 +242,7 @@ body {
   
   .form-box {
     background: transparent;
-    border: 2px solid #cbdcf7; /* Light blue border */
+    border: 2px solid #cbdcf7; 
     border-radius: 8px;
     padding: 8px 12px;
     transition: all 0.3s ease;
@@ -252,9 +252,9 @@ body {
   .form-box input,
   .form-box textarea {
     background: transparent;
-    border: none; /* No inner border */
-    outline: none; /* No default browser focus outline */
-    box-shadow: none; /* No inner shadow */
+    border: none; 
+    outline: none;
+    box-shadow: none; 
     width: 100%;
     color: #333;
     font-size: 1rem;
@@ -270,9 +270,9 @@ body {
   
   /* FOCUS EFFECT: Only apply to the outer form-box */
   .form-box:focus-within {
-    background: #ffffff; /* Full box becomes white */
-    border-color: #0077ff; /* Outer border becomes deeper blue */
-    box-shadow: none; /* No outer glow either — just clean */
+    background: #ffffff; 
+    border-color: #0077ff; 
+    box-shadow: none; 
   }
 
   /* Sketch underline animation for Navbar Brand */
@@ -292,7 +292,7 @@ body {
     bottom: 0;
     width: 0;
     height: 3px;
-    background-color: #0077ff; /* Your blue color */
+    background-color: #0077ff; 
     transition: width 0.4s ease;
     border-radius: 2px;
   }
