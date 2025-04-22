@@ -214,6 +214,15 @@ body {
     transform: scale(1.1);
   }
 
+  .company-logo-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .company-logo {
+    max-height: 80px;
+    object-fit: contain;
+  }
+
   .neumorphic-btn {
     background: #e6f0ff; 
     border: none;
