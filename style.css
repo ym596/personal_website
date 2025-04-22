@@ -311,3 +311,15 @@ body {
     transform: scale(1.05);
     transition: transform 0.3s ease;
   }
+
+
+/* page top dding */
+  .page-top-padding {
+    padding-top: 120px; /* or 130px depending on what looks perfect */
+  }
+  
+  @media (max-width: 768px) {
+    .page-top-padding {
+      padding-top: 100px; /* slightly less padding on mobile */
+    }
+  }
