@@ -235,28 +235,30 @@ body {
     transform: translateY(3px);
   }
 
-  /* Contact Form Styling */
+/* Contact Form Styling */
 .contact-form {
     margin-top: 2rem;
   }
   
   .form-box {
-    background: #e6f0ff;
-    box-shadow: 8px 8px 16px #c1c1c1, -8px -8px 16px #ffffff;
-    border-radius: 12px;
-    padding: 12px;
+    background: transparent;
+    border: 2px solid #cbdcf7; /* Light blue border */
+    border-radius: 8px;
+    padding: 8px 12px;
     transition: all 0.3s ease;
   }
   
+  /* Input and Textarea inside Form Box */
   .form-box input,
   .form-box textarea {
     background: transparent;
-    border: none;
+    border: none; /* No inner border */
+    outline: none; /* No default browser focus outline */
+    box-shadow: none; /* No inner shadow */
     width: 100%;
-    outline: none;
     color: #333;
     font-size: 1rem;
-    padding: 10px;
+    padding: 6px;
     resize: none;
   }
   
@@ -266,10 +268,9 @@ body {
     color: #999;
   }
   
-  /* Focus effect */
-  .form-box input:focus,
-  .form-box textarea:focus {
-    box-shadow: inset 4px 4px 8px #c1c1c1, inset -4px -4px 8px #ffffff;
+  /* FOCUS EFFECT: Only apply to the outer form-box */
+  .form-box:focus-within {
+    background: #ffffff; /* Full box becomes white */
+    border-color: #0077ff; /* Outer border becomes deeper blue */
+    box-shadow: none; /* No outer glow either — just clean */
   }
-  
-  /* Button neumorphism already handled by .neumorphic-btn */
