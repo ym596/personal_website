@@ -226,6 +226,6 @@ body {
   
   /* Active (Clicked) Effect */
   .neumorphic-btn:active {
-    box-shadow: inset 4px 4px 8px #c1c1c1, inset -4px -4px 8px #ffffff;
-    transform: translateY(2px);
+    box-shadow: inset 6px 6px 12px #c1c1c1, inset -6px -6px 12px #ffffff;
+    transform: translateY(3px);
   }
