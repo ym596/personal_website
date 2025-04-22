@@ -150,4 +150,32 @@ body {
     padding-right: 15px;
 }
 
+/* Experience Left Company List */
+.company-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .company-list .company-item {
+    width: 200px; /* fixed width */
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    color: #333;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  .company-list .company-item:hover {
+    background: #e6f0ff;
+    color: #0077ff;
+  }
+  
+  .company-list .company-item.active {
+    background: #0077ff;
+    color: #ffffff;
+  }
   
