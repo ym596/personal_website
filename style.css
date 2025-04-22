@@ -148,7 +148,7 @@ body {
   /* Universal content wrapper */
 .content-wrapper {
     width: 100%;
-    max-width: 900px; /* You can adjust between 800-1000px depending on your taste */
+    max-width: 900px; 
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
