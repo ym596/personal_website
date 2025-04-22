@@ -338,3 +338,31 @@ body {
       padding-top: 80px;
     }
   }
+
+  .keyword-highlight {
+    color: #007bff; 
+    font-weight: 600;
+    position: relative;
+    text-decoration: none; 
+    display: inline-block; 
+    transition: color 0.3s ease;
+  }
+  
+  .keyword-highlight::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: #007bff;
+    transition: width 0.4s ease;
+  }
+  
+  .keyword-highlight:hover::after {
+    width: 100%;
+  }
+  
+  .keyword-highlight:hover {
+    color: #0056b3; /* darker blue on hover */
+  }
