@@ -117,28 +117,33 @@ body {
       font-size: 1rem;
     }
   }
-  
-  /* Navbar link hover effect */
-.nav-link {
-    transition: color 0.3s ease, border-bottom 0.3s ease;
-  }
-  
-  /* Navbar link normal state */
+
+/* Navbar link normal state */
 .nav-link {
     position: relative;
     display: inline-block;
     padding: 8px 16px;
     transition: all 0.3s ease;
+    font-weight: 500;
+    color: #333;
+    background: transparent;
     border: 2px solid transparent; /* No visible border by default */
-    border-radius: 8px; /* Rounded corners for nice effect */
-}
+    border-radius: 8px;
+  }
 
-/* Navbar link hover state */
+/* Navbar link hover effect */
 .nav-link:hover {
-    border-color: #0077ff; /* Blue box appears on hover */
-    background-color: rgba(0, 119, 255, 0.1); /* Light background highlight (optional) */
-    color: #0077ff; /* Change text color too */
-}
+    background: #e6f0ff; /* Light transparent blue */
+    color: #0077ff;
+    border: 2px solid #0077ff;
+  }
+
+/* Navbar active page (current page) */
+.nav-link.active {
+    background: rgba(0, 119, 255, 0.1); /* Light transparent blue */
+    color: #0077ff;
+    border: 2px solid #0077ff;
+  }
 
   /* Universal content wrapper */
 .content-wrapper {
