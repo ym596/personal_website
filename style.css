@@ -323,3 +323,14 @@ body {
       padding-top: 100px; /* slightly less padding on mobile */
     }
   }
+
+
+  .experience-top-padding {
+    padding-top: 70px;
+  }
+  
+  @media (max-width: 768px) {
+    .experience-top-padding {
+      padding-top: 80px;
+    }
+  }
