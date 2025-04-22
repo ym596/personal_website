@@ -140,10 +140,10 @@ body {
 
 /* Navbar active page (current page) */
 .nav-link.active {
-    background: rgba(0, 119, 255, 0.1); /* Light transparent blue */
-    color: #0077ff;
+    background: rgba(0, 119, 255, 0.1); 
+    color: #0077ff !important; 
     border: 2px solid #0077ff;
-  }
+}
 
   /* Universal content wrapper */
 .content-wrapper {
