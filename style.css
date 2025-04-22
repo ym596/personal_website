@@ -16,7 +16,11 @@ body {
     padding-top: 100px;
 }
 
-  
+/* Make only hero paragraph text smaller */
+.hero p {
+    font-size: 0.9rem;
+}  
+
   .hero h1, .hero p {
     animation: fadeIn 2s ease forwards;
   }
