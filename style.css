@@ -204,3 +204,28 @@ body {
   .company-logo:hover {
     transform: scale(1.1);
   }
+
+  .neumorphic-btn {
+    background: #e6f0ff; /* Light pastel blue */
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #0077ff; /* Blue text */
+    box-shadow: 8px 8px 16px #c1c1c1, -8px -8px 16px #ffffff;
+    transition: all 0.3s ease;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  /* Hover Effect */
+  .neumorphic-btn:hover {
+    box-shadow: 4px 4px 8px #c1c1c1, -4px -4px 8px #ffffff;
+  }
+  
+  /* Active (Clicked) Effect */
+  .neumorphic-btn:active {
+    box-shadow: inset 4px 4px 8px #c1c1c1, inset -4px -4px 8px #ffffff;
+    transform: translateY(2px);
+  }
