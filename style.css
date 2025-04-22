@@ -190,3 +190,14 @@ body {
 .nowrap {
     white-space: nowrap;
 }
+
+.company-logo {
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.company-logo:hover {
+    transform: scale(1.1);
+}
