@@ -234,3 +234,42 @@ body {
     box-shadow: inset 6px 6px 12px #c1c1c1, inset -6px -6px 12px #ffffff;
     transform: translateY(3px);
   }
+
+  /* Contact Form Styling */
+.contact-form {
+    margin-top: 2rem;
+  }
+  
+  .form-box {
+    background: #e6f0ff;
+    box-shadow: 8px 8px 16px #c1c1c1, -8px -8px 16px #ffffff;
+    border-radius: 12px;
+    padding: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .form-box input,
+  .form-box textarea {
+    background: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 10px;
+    resize: none;
+  }
+  
+  /* Placeholder text color */
+  .form-box input::placeholder,
+  .form-box textarea::placeholder {
+    color: #999;
+  }
+  
+  /* Focus effect */
+  .form-box input:focus,
+  .form-box textarea:focus {
+    box-shadow: inset 4px 4px 8px #c1c1c1, inset -4px -4px 8px #ffffff;
+  }
+  
+  /* Button neumorphism already handled by .neumorphic-btn */

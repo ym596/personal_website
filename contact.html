@@ -30,13 +30,37 @@
 
   <!-- Contact Content -->
   <section class="content-section container fade-in">
-    <h2 class="section-heading">Contact</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feel free to reach out to me via email at <a href="mailto:youremail@example.com">youremail@example.com</a>.</p>
-    <!-- Example social icons (optional later) -->
-    <!-- <div class="mt-4">
-      <a href="#" class="me-3"><i class="bi bi-github"></i></a>
-      <a href="#"><i class="bi bi-linkedin"></i></a>
-    </div> -->
+    <div class="content-wrapper">
+      <h1 class="display-4 mb-4 hero-heading">Contact Me.</h1>
+      <p>Feel free to reach out by filling out the form below. I'll get back to you as soon as possible!</p>
+  
+      <form action="https://formspree.io/f/xrbqzwdj" method="POST" class="contact-form mt-5">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="form-box">
+              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-box">
+              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+            </div>
+          </div>
+        </div>
+  
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="form-box">
+              <textarea name="message" class="form-control" rows="6" placeholder="Your Message" required></textarea>
+            </div>
+          </div>
+        </div>
+  
+        <div class="text-end mt-4">
+          <button type="submit" class="btn neumorphic-btn">Send Message</button>
+        </div>
+      </form>
+    </div>
   </section>
 
   <!-- Footer -->
