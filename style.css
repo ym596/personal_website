@@ -274,3 +274,36 @@ body {
     border-color: #0077ff; /* Outer border becomes deeper blue */
     box-shadow: none; /* No outer glow either — just clean */
   }
+
+  /* Sketch underline animation for Navbar Brand */
+.navbar-brand {
+    position: relative;
+    display: inline-block;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    overflow: hidden;
+  }
+  
+  .navbar-brand::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: #0077ff; /* Your blue color */
+    transition: width 0.4s ease;
+    border-radius: 2px;
+  }
+  
+  /* Hover Animation */
+  .navbar-brand:hover::after {
+    width: 100%;
+  }
+  
+  /* Optional slight pop on hover */
+  .navbar-brand:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
