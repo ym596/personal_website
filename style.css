@@ -18,7 +18,7 @@ body {
 
 /* Make only hero paragraph text smaller */
 .hero p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }  
 
   .hero h1, .hero p {
