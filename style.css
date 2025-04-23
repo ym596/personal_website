@@ -381,3 +381,11 @@ body {
     transform: scale(1.8);
     color: #005582;
   }
+
+
+  .site-footer {
+    font-size: 0.875rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
