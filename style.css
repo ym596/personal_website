@@ -90,7 +90,7 @@ body {
 
 /* Profile Picture Hover Effect */
 .profile-pic:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     box-shadow: 12px 12px 24px #c1c1c1, -12px -12px 24px #ffffff;
 }
 
@@ -384,6 +384,6 @@ body {
   }
   
   .linkedin-footer-icon:hover {
-    transform: scale(1.15);
+    transform: scale(1.8);
     color: #005582;
   }
